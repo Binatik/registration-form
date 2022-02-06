@@ -1,0 +1,41 @@
+input[placeholder] {
+    text-overflow:ellipsis;
+    transition: 0.2s;
+}
+
+::-webkit-input-placeholder {
+    color: #7C9CBF;
+    text-overflow:ellipsis;
+    transition: 0.2s;
+}
+
+::-moz-placeholder {
+    color: #7C9CBF;
+    text-overflow:ellipsis;
+    transition: 0.2s;
+}
+
+:-moz-placeholder {
+    color: #7C9CBF;
+    text-overflow:ellipsis;
+    transition: 0.2s;
+}
+
+:-ms-input-placeholder {
+    color: #7C9CBF;
+    text-overflow:ellipsis;
+    transition: 0.2s;
+}
+
+:focus::-webkit-input-placeholder {transform: translateY(30px)}
+:focus::-moz-placeholder          {transform: translateY(30px)}
+:focus:-moz-placeholder           {transform: translateY(30px)}
+:focus:-ms-input-placeholder      {transform: translateY(30px)}
+
+.global {
+    background-color: #fff;
+}
+
+.global .wrapper {
+    padding: 40px 30px 10px 30px;
+}

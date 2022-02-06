@@ -1,0 +1,33 @@
+.registration__title {
+    margin: 0 0 10px 0;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 44px;
+    color: #2C2738;
+}
+
+.registration__account {
+    display: flex;
+    align-items: center;
+}
+
+.registration__description {
+    display: inline-block;
+    padding: 0 0 3px 0;
+    font-size: 16px;
+    color: #2C2738;
+}
+
+.registration__btn {
+    width: initial;
+    padding: 3px 6px;
+    font-size: 16px;
+    min-height: 22px;
+    box-shadow: none;
+    color: #0880AE;
+    background-color: transparent;
+}
+
+.registration__btn:hover {
+    color: #756F86;
+}

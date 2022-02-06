@@ -1,0 +1,63 @@
+.form__group {
+    margin: 58px 0 0 0;
+}
+
+.form__title {
+    margin: 7px 0;
+    font-weight: 500;
+    font-size: 16px;
+    color: #756F86;
+}
+
+.form__control {
+    border-radius: 6px;
+    border: 1px solid #DBE2EA;
+}
+
+.form__input {
+    position: relative;
+    outline: none;
+    width: 100%;
+    padding: 11px;
+    font-size: 16px;
+    color: #2C2738;
+    background: #FFFFFF;
+    border: 2px solid transparent;
+    box-shadow: 0 4px 8px rgba(44, 39, 56, 0.04);
+    border-radius: 6px;
+}
+
+input:-webkit-autofill {
+    border: 2px solid #DBE2EA;
+    border-radius: 6px;
+    -webkit-box-shadow:0 0 0 50px white inset; /* можно изменить на любой вариант цвета */
+    -webkit-text-fill-color: #333;
+    transition: 0.3s;
+}
+
+.form__input:focus {
+    border: 2px solid #18a0fb;
+}
+
+.form__input_validation {
+    display: inline-block;
+    margin: 8px 0;
+    font-size: 14px;
+    color: #FF7171;
+    transition: 0.3s;
+}
+
+.form__input_error {
+    visibility: visible;
+    opacity: 1;
+}
+
+.form__input_waiting {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.form__input_ok {
+    visibility: hidden;
+    opacity: 0;
+}
